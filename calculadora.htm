@@ -8,6 +8,10 @@ CTYPE html><html><head>
     var num = document.getElementById("n1");
     num.value = num.value * num.value;
   }
+  function sqrt() {
+    var num = document.getElementById("n1");
+    num.value = Math.sqrt(num.value);
+  }
 </script>
 </head>
 <body>
@@ -15,6 +19,7 @@ CTYPE html><html><head>
     <input type="text" id="n1" onclick="vaciar()"><p>
 
     <button onclick="cuadrado()"> x<sup>2</sup> </button>
+    <button onclick="sqrt()"> sqrt(x) </button>
 </body>
 </html>
 
